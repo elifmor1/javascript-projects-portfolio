@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elif Mor - Visual Designer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Mulish:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <nav class="main-nav">
+        <div class="nav-header">
+            <span class="logo">EM</span>
+            <button class="menu-toggle">Menu</button>
+        </div>
+        <div class="nav-content">
+            <div class="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#work" class="nav-link">Work</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-footer">
+                <a href="mailto:Elif.Mor@my-aolcc.com">Elif.Mor@my-aolcc.com</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-text">
+                <h1>Visual Designer</h1>
+                <p>Creating meaningful digital experiences through thoughtful design</p>
+            </div>
+            <div class="scroll-hint">
+                <span>Scroll</span>
+                <div class="scroll-line"></div>
+            </div>
+        </section>
+
+        <section id="work" class="work-section">
+            <div class="section-header">
+                <h2>Selected Works</h2>
+            </div>
+            <div class="work-grid">
+                <article class="work-item" data-category="Branding">
+                    <div class="work-image">
+                        <img src="https://via.placeholder.com/800x600" alt="Project 1">
+                    </div>
+                    <div class="work-info">
+                        <h3>Artisan Brand Identity</h3>
+                        <p>Visual Design / Branding</p>
+                    </div>
+                </article>
+                <article class="work-item" data-category="Digital">
+                    <div class="work-image">
+                        <img src="https://via.placeholder.com/800x600" alt="Project 2">
+                    </div>
+                    <div class="work-info">
+                        <h3>Digital Experience</h3>
+                        <p>UI Design / Animation</p>
+                    </div>
+                </article>
+                <article class="work-item" data-category="Print">
+                    <div class="work-image">
+                        <img src="https://via.placeholder.com/800x600" alt="Project 3">
+                    </div>
+                    <div class="work-info">
+                        <h3>Editorial Design</h3>
+                        <p>Print / Typography</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About</h2>
+                    <p>I'm a visual designer focused on creating beautiful and functional digital experiences. With a background in fine arts and digital media, I bring a unique perspective to every project.</p>
+                    <div class="expertise">
+                        <div class="expertise-item">
+                            <span class="number">7+</span>
+                            <span>Years of Experience</span>
+                        </div>
+                        <div class="expertise-item">
+                            <span class="number">50+</span>
+                            <span>Projects Completed</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="services">
+                    <h3>Services</h3>
+                    <ul class="services-list">
+                        <li>Brand Identity</li>
+                        <li>Digital Design</li>
+                        <li>UI/UX Design</li>
+                        <li>Art Direction</li>
+                        <li>Motion Design</li>
+                        <li>Print Design</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="contact-content">
+                <h2>Let's Work Together</h2>
+                <div class="contact-info">
+                    <a href="mailto:Elif.Mor@my-aolcc.com" class="email-link">
+                        Elif.Mor@my-aolcc.com
+                    </a>
+                    <div class="social-links">
+                        <a href="#" target="_blank">Instagram</a>
+                        <a href="#" target="_blank">Behance</a>
+                        <a href="#" target="_blank">LinkedIn</a>
+                    </div>
+                </div>
+                <form id="contact-form" class="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Elif Mor. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
